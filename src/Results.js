@@ -9,7 +9,6 @@ export default function Results(props) {
   }
 
   const meanings = props.results.meanings || [];
-  const phonetic = props.results.phonetic || [];
 
   return (
     <div className="Results">
