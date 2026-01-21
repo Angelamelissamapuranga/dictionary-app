@@ -16,7 +16,6 @@ export default function Dictionary(props) {
   }
 
   function handlePexelsResponse(response) {
-    console.log(response.data);
     setPhotos(response.data.photos);
   }
 
@@ -51,6 +50,7 @@ export default function Dictionary(props) {
 
   function handleSubmit(event) {
     event.preventDefault();
+    handlePexelsResponse();
     search();
   }
 
