@@ -16,7 +16,7 @@ export default function Results(props) {
       <section>
         <h2>{props.results.word}</h2>
         {props.results.phonetics &&
-          props.results.phonetics.map((phonetic, index) => (
+          props.results.phonetic.map((phonetic, index) => (
             <Phonetics key={index} phonetic={phonetic} />
           ))}
       </section>
