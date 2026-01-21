@@ -8,7 +8,7 @@ export default function App() {
       <div className="App">
         <header className="App-header"></header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="Feminine" />
         </main>
         <footer className="text-center">Coded by Angela Mapuranga</footer>
       </div>

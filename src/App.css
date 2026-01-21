@@ -1,0 +1,16 @@
+body {
+  background: #f9f8fe;
+}
+
+a {
+  color: #f9f8fe;
+}
+
+.App-header {
+  margin: 30px 0;
+}
+
+.App-footer {
+  text-align: center;
+  margin: 30px 0;
+}
