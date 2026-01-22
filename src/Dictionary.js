@@ -20,7 +20,7 @@ export default function Dictionary(props) {
   }
 
   function search() {
-    let apiKey = "40bdb8c3a26579atfoa8a2d376def906";
+    let apiKey = "0b13ta29a8716f0b00944ca581adofd4";
     let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=${apiKey}`;
     axios.get(apiUrl).then(handleDictionaryResponse);
 
@@ -35,9 +35,7 @@ export default function Dictionary(props) {
           Authorization: pexelsApiKey,
         },
       })
-      .then((response) => {
-        console.log(response.data);
-      })
+      .then(handlePexelsResponse)
       .catch((error) => {
         console.error(error);
       });
@@ -50,7 +48,7 @@ export default function Dictionary(props) {
 
   function handleSubmit(event) {
     event.preventDefault();
-    handlePexelsResponse();
+
     search();
   }
 

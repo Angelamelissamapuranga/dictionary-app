@@ -1,5 +1,5 @@
 body {
-  background: #f9f8fe;
+  background: #dfe7e5;
 }
 
 a {
@@ -13,6 +13,9 @@ a {
 
 .App-header {
   margin: 30px 0;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: #988977;
 }
 
 .App-footer {

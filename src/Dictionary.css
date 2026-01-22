@@ -1,11 +1,14 @@
 .Dictionary {
   margin-top: 50px;
+  font-family: "Noto Sans Georgian", sans-serif;
+  color: #988977;
 }
 
 .Dictionary h1 {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
 }
 
 .Dictionary section {
